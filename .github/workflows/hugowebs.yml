@@ -25,7 +25,7 @@ jobs:
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         with:
-          github_token: ${{ secrets.PUSH_TOKEN}}
+          personal_token: ${{ secrets.PUSH_TOKEN}}
           external_repository: greeedyboy/web_nankai
           publish_branch: master # default: gh-pages
           publish_dir: ./publish_sicau
