@@ -1,4 +1,4 @@
-baseurl = "/"
+baseurl = "https://greeedyboy.github.io/web_nankai/"
 title = "sciau.com.cn"
 publishDir="publish_sicau"
 contentDir="content"
