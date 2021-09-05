@@ -26,7 +26,8 @@ jobs:
       - name: Build
         run: |
             echo "Hello ${{ github.event.inputs.name }}!"
-            run: hugo
+            hugo
+      
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
