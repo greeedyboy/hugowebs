@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
     inputs:
       name:
-        description: 'Person to greet'
+        description: 'Give Me Your Name'
         required: false
         default: 'ImQQ'
         
@@ -23,11 +23,11 @@ jobs:
           hugo-version: '0.81.0'
           extended: true
 
+      - name: show par
+        run: echo "Hello ${{ github.event.inputs.name }}!"
+        
       - name: Build
-        run: |
-            echo "Hello ${{ github.event.inputs.name }}!"
-            hugo
-      
+        run: hugo
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
