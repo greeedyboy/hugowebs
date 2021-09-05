@@ -7,6 +7,7 @@ on:
         description: 'Person to greet'
         required: false
         default: 'ImQQ'
+        
 
 
 jobs:
@@ -23,7 +24,9 @@ jobs:
           extended: true
 
       - name: Build
-        run: hugo
+      - run: |
+          echo "Hello ${{ github.event.inputs.name }}!"
+          run: hugo
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
