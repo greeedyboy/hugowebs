@@ -1,3 +1,7 @@
+baseurl = "https://sicau.com.cn/"
+title = "sciau.com.cn"
+contentDir="source_sicau"
+publishDir="public"
 languageCode = "zh-CN"
 defaultContentLanguage="en"
 paginate = "10" # Number of posts per page
