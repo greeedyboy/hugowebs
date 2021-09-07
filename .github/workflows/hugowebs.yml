@@ -29,7 +29,7 @@ jobs:
         run: echo "Hello ${{ github.event.inputs.name }}!"
         
       - name: Build
-        run: hugo
+        run: hugo --config=config.toml,config_${{ github.event.inputs.config }}.toml
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
