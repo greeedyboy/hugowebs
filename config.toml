@@ -12,8 +12,8 @@ uglyurls = true
 [menu]
       [[menu.main]]
         identifier = "blog"
-        name = "博客"
-        url = "http://www.baidu.com"
+        name = "主页"
+        url = "/"
         weight = 2
 [Author]
   name = "John Doe"
@@ -30,7 +30,7 @@ uglyurls = true
   post_meta = ["date", "categories"] # Order of post meta information
 
 [Params.logo]
-  subtitle = "整站出售，可以拥有~" # Logo subtitle
+  subtitle = "整站出售，欢迎沟通！Email:254828511@QQ.com" # Logo subtitle
 
 [Params.sidebar]
   home = "right"   # Configure layout for home page

@@ -1,32 +1,32 @@
 ---
-title: About Hugo
-date: 2014-04-09
+title: 整站出售
+date: 2021-04-09
 authorbox: false
 sidebar: false
 menu: main
 ---
 
-Hugo is a static site engine written in Go.
 
+{% centerquote %} 域名待字闺中
 
-It makes use of a variety of open source projects including:
+你来
 
-* [Cobra](https://github.com/spf13/cobra)
-* [Viper](https://github.com/spf13/viper)
-* [J Walter Weatherman](https://github.com/spf13/jWalterWeatherman)
-* [Cast](https://github.com/spf13/cast)
+即你懂我
 
-Learn more and contribute on [GitHub](https://github.com/spf13).
+请带走我
 
-## Setup
+让我不再孤寂漂泊
 
-Some fun facts about [Hugo](http://gohugo.io/):
+The domain is waiting for you
 
-* Built in [Go](http://golang.org/)
-* Loosely inspired by [Jekyll](http://jekyllrb.com/)
-* Primarily developed by [spf13](http://spf13.com/) on the train while commuting to and from Manhattan.
-* Coded in [Vim](http://vim.org) using [spf13-vim](http://vim.spf13.com/)
+You come
 
-Have questions or suggestions? Feel free to [open an issue on GitHub](https://github.com/spf13/hugo/issues/new) or [ask me on Twitter](https://twitter.com/spf13).
+You must understand my heart
 
-Thanks for reading!
+Please take me away
+
+It will be my pleasure
+
+商务：254828511@qq.com
+
+{% endcenterquote %}
