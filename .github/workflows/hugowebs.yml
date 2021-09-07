@@ -38,4 +38,4 @@ jobs:
           external_repository: greeedyboy/web_nankai
           publish_branch: master # default: gh-pages
           force_orphan: true
-          publish_dir: ./publish_${{ github.event.inputs.config }}
+          publish_dir: ./public
