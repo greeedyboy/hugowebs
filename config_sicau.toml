@@ -1,0 +1,4 @@
+baseurl = "https://sicau.com.cn/"
+title = "sciau.com.cn"
+publishDir="public_sicau"
+contentDir="source_sicau"

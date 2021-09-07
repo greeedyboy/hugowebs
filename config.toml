@@ -1,8 +1,3 @@
-baseurl = "https://greeedyboy.github.io/web_nankai/"
-title = "sciau.com.cn"
-publishDir="publish_sicau"
-contentDir="content"
-
 languageCode = "zh-CN"
 defaultContentLanguage="en"
 paginate = "10" # Number of posts per page
