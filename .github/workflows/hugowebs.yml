@@ -2,9 +2,13 @@ name: github pages
 
 on:
   workflow_dispatch:
-  push:
-    branches:
-      - master  # Set a branch to deploy
+    inputs:
+      name:
+        description: 'Give Me Your Name'
+        required: false
+        default: 'ImQQ'
+        
+
 
 jobs:
   deploy:
@@ -19,6 +23,9 @@ jobs:
           hugo-version: '0.81.0'
           extended: true
 
+      - name: show par
+        run: echo "Hello ${{ github.event.inputs.name }}!"
+        
       - name: Build
         run: hugo
 
@@ -28,4 +35,5 @@ jobs:
           personal_token: ${{ secrets.PUSH_TOKEN}}
           external_repository: greeedyboy/web_nankai
           publish_branch: master # default: gh-pages
+          force_orphan: true
           publish_dir: ./publish_sicau
