@@ -7,7 +7,7 @@ googleAnalytics = "" # Enable Google Analytics by entering your tracking id
 
 uglyurls = true
 [permalinks]
-  post = '/:year/:slug/'
+  post = '/blog/:year/:slug/'
 
 [menu]
       [[menu.main]]
