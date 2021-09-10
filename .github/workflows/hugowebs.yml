@@ -10,7 +10,15 @@ on:
       config:
         description: 'tell me the config'
         required: false
-        default: 'config_sicau.toml'        
+        default: 'config_sicau.toml'
+      drepo:
+        description: 'tell me the deploy_repo'
+        required: false
+        default: 'greeedyboy/web_nankai' 
+      drepobranch:
+        description: 'tell me the deploy_repo branch'
+        required: false
+        default: 'master'      
 
 jobs:
   deploy:
@@ -37,7 +45,7 @@ jobs:
         uses: peaceiris/actions-gh-pages@v3
         with:
           personal_token: ${{ secrets.PUSH_TOKEN}}
-          external_repository: greeedyboy/web_nankai
-          publish_branch: master # default: gh-pages
+          external_repository: ${{ github.event.inputs.drepo }}
+          publish_branch: ${{ github.event.inputs.drepobranch }} # default: gh-pages
           force_orphan: true
           publish_dir: ./public

@@ -1,5 +1,6 @@
 baseurl = "https://sicau.com.cn/"
 title = "sciau.com.cn"
 contentDir="source_sicau"
+staticdir="static_sicau"
 publishDir="public"
 
