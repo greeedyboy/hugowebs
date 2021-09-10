@@ -10,7 +10,7 @@ on:
       config:
         description: 'tell me the config'
         required: false
-        default: 'sicau'        
+        default: 'config_sicau.toml'        
 
 jobs:
   deploy:
@@ -32,8 +32,7 @@ jobs:
         run: echo "Hello ${{ github.event.inputs.name }}!"
         
       - name: Build
-        run: hugo --config=config.toml,config_${{ github.event.inputs.config }}.toml
-
+        run: hugo --config=config.toml,${{ github.event.inputs.config }}
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         with:
