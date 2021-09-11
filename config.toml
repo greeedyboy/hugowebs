@@ -1,3 +1,8 @@
+baseurl = 'https://hrbeu.com.cn'
+title = 'hrbeu.com.cn | 域名出售 '
+contentDir='source_hrbeu'
+staticdir=${staticdir}
+publishDir='public'
 languageCode = "zh-cn"
 defaultContentLanguage="zh-cn"
 paginate = "10" # Number of posts per page
@@ -30,7 +35,7 @@ uglyurls = true
   post_meta = ["date", "categories"] # Order of post meta information
 
 [Params.logo]
-  subtitle = "整站出售，欢迎沟通！Email:254828511@QQ.com" # Logo subtitle
+  subtitle = '整站出售，欢迎沟通！Email:254828511@QQ.com' # Logo subtitle
 
 [Params.sidebar]
   home = "right"   # Configure layout for home page
