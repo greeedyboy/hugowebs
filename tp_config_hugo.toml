@@ -1,6 +1,0 @@
-baseurl = "https://nankai.info/"
-title = "nankai.info与南开大学等无关"
-contentDir="source_nankai"
-staticdir="static_nankai"
-publishDir="public"
-
