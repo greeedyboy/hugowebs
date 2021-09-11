@@ -1,4 +1,4 @@
-name: github pages
+name: github pages-${{ github.event.inputs.drepo }}
 
 on:
   workflow_dispatch:
