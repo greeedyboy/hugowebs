@@ -1,6 +1,6 @@
-baseurl = 'https://hrbeu.com.cn'
-title = 'hrbeu.com.cn | 域名出售 '
-contentDir='source_hrbeu'
+baseurl = 'https://sicau.com.cn'
+title = 'sicau.com.cn | 域名出售 '
+contentDir='source_sicau'
 staticdir='static'
 publishDir='public'
 languageCode = "zh-cn"
