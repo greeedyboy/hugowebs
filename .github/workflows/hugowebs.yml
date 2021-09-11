@@ -40,7 +40,7 @@ jobs:
         run: echo "Hello ${{ github.event.inputs.name }}!"
         
       - name: Build
-        run: hugo --config=config.toml,${{ github.event.inputs.config }}
+        run: hugo --config=config.toml
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         with:
