@@ -7,7 +7,7 @@ menu: main
 ---
 
 
-{% centerquote %} 域名待字闺中
+域名待字闺中
 
 你来
 
@@ -29,4 +29,3 @@ It will be my pleasure
 
 商务：254828511@qq.com
 
-{% endcenterquote %}
