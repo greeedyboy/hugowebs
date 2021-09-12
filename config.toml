@@ -34,7 +34,8 @@ uglyurls = true
   authorbox = false
   pager = true
   post_meta = ["date", "categories"] # Order of post meta information
-  customCSS =['css/style2.css']
+  customCSS =['css/style2.css' ]
+
 
 [Params.logo]
   subtitle = '整站出售，欢迎沟通！Email:254828511@QQ.com' # Logo subtitle

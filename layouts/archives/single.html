@@ -1,0 +1,24 @@
+{{/*归档页面*/}}
+{{/* 参考 https://dp2px.com/2019/08/30/go-hugo1/ [我为什么要从 Hexo 更换到 Hugo - DP2PX.COM]*/}}
+{{ define "main" }}
+<link rel="stylesheet" href="{{ .Site.BaseURL }}css/style2.css">
+
+<article class="article article-type-post" itemscope="" itemprop="blogPost">
+    <div class="article-inner">
+        <div class="post-archive">
+            {{ range (where (where .Site.Pages "Type" "post") "Kind" "page").GroupByDate "2006" }}
+            <h2> {{ .Key }} </h2>
+            <ul class="listing">
+                {{ range .Pages }}
+                <li>
+                    <date class="meta-date">{{ .Date.Format "01-02" }}</date>
+                    <a class="archive-title" href="{{ .Permalink }}" title="{{ .Title }}">{{ .Title }}</a>
+                </li>
+                {{ end }}
+            </ul>
+            {{ end }}
+        </div>
+    </div>
+</article>
+
+{{ end }}
