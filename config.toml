@@ -1,6 +1,6 @@
-baseurl = 'https://sicau.com.cn'
-title = 'sicau.com.cn | 域名出售 '
-contentDir='source_sicau'
+baseurl = 'https://nankai.info'
+title = 'nankai.info | 域名出售 '
+contentDir='source_nankai'
 staticdir='static'
 publishDir='public'
 languageCode = "zh-cn"
