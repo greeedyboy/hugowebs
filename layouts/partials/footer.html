@@ -1,0 +1,35 @@
+<footer class="footer">
+	<div class="container footer__container flex">
+		{{ partial "footer_links.html" . }}
+		<div class="footer__copyright">
+			&copy; {{ now.Format "2006" }} {{ .Site.Params.copyright | default .Site.Title }}.
+			<span class="footer__copyright-credits">{{ T "footer_credits" | safeHTML }}</span>
+			
+			<script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+			<span id="busuanzi_container_site_pv">
+				本站访问量：<span id="busuanzi_value_site_pv"></span>次
+			</span>
+			&nbsp;
+			<span id="busuanzi_container_site_uv">
+				您是本站第 <span id="busuanzi_value_site_uv"></span> 位访问者
+			</span>
+
+		</div>
+		<span>
+			<script>
+				var _hmt = _hmt || [];
+				(function() {
+				  var hm = document.createElement("script");
+				  hm.src = "https://hm.baidu.com/hm.js?fd3e2dd50f2e411559ab7f1568d5d73a";
+				  var s = document.getElementsByTagName("script")[0]; 
+				  s.parentNode.insertBefore(hm, s);
+				})();
+				</script>
+				
+		</span>
+		<span>
+			<script type="text/javascript" src="https://s5.cnzz.com/z_stat.php?id=1277460487&web_id=1277460487"></script>
+		
+		</span>
+	</div>
+</footer>
