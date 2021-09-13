@@ -1,6 +1,6 @@
-baseurl = 'https://nankai.info'
-title = 'nankai.info | 域名出售 '
-contentDir='source_nankai'
+baseurl = 'https://cumt.net.cn'
+title = 'cumt.net.cn | 域名出售 '
+contentDir='source_cumt'
 staticdir='static'
 publishDir='public'
 languageCode = "zh-cn"
