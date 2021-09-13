@@ -10,7 +10,7 @@ on:
       config:
         description: 'tell me the config'
         required: false
-        default: 'config.toml'
+        default: 'config_nankai.toml'
       drepo:
         description: 'tell me the deploy_repo'
         required: false
@@ -18,7 +18,11 @@ on:
       drepobranch:
         description: 'tell me the deploy_repo branch'
         required: false
-        default: 'master'      
+        default: 'master' 
+      publicdir:
+        description: 'tell me the public dir'
+        required: false
+        default: 'public_nankai'      
 
 jobs:
   deploy:
@@ -40,7 +44,7 @@ jobs:
         run: echo "Hello ${{ github.event.inputs.name }}!"
         
       - name: Build
-        run: hugo --config=${{ github.event.inputs.config }}
+        run: hugo --config=config.toml,${{ github.event.inputs.config }}
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         with:
@@ -48,4 +52,4 @@ jobs:
           external_repository: ${{ github.event.inputs.drepo }}
           publish_branch: ${{ github.event.inputs.drepobranch }} # default: gh-pages
           force_orphan: true
-          publish_dir: ./public
+          publish_dir: ./${{ github.event.inputs.publicdir }}

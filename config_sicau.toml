@@ -1,0 +1,5 @@
+baseurl = 'https://sicau.com.cn'
+title = 'sicau.com.cn | 整站出售 '
+contentDir='source_sicau'
+staticdir='static'
+publishDir='public_sicau'

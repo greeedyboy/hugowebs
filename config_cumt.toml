@@ -1,0 +1,5 @@
+baseurl = 'https://cumt.net.cn'
+title = 'cumt.net.cn | 整站出售 '
+contentDir='source_cumt'
+staticdir='static'
+publishDir='public_cumt'

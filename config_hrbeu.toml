@@ -1,0 +1,5 @@
+baseurl = 'https://hrbeu.com.cn'
+title = 'hrbeu.com.cn | 整站出售 '
+contentDir='source_hrbeu'
+staticdir='static'
+publishDir='public_hrbeu'

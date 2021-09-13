@@ -1,0 +1,5 @@
+baseurl = 'https://nankai.info'
+title = 'nankai.info | 整站出售 '
+contentDir='source_nankai'
+staticdir='static'
+publishDir='public_nankai'
